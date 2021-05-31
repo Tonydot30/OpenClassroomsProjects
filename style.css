@@ -1,0 +1,162 @@
+
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar-H
+{
+    text-decoration: none;
+}
+
+img
+{
+width: 200px;
+}
+.logo-map
+{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 55px;
+height: auto;
+background-color: #F2F2F2;
+border-radius: 15px 0 0 15px;
+}
+.research-box
+{
+    display: flex;
+    padding: 15px;
+}
+.research-bar
+{
+    height: 50px;
+    width: 250px;
+    padding-left: 10px;
+    border:none;
+    border-top: solid 1px #F2F2F2;
+    border-bottom: solid 1px #F2F2F2;
+    font-family: "Raleway" sans-serif;
+;
+}
+.button-research
+{
+    background-color: #0065fc;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+    border:none;
+}
+
+.filtres
+{
+    display: flex;
+}
+.filtres-ul
+{
+    width: 850px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.filtres-clic
+{
+    border: solid 2px #d9d9d9;
+    border-radius: 100px;
+    padding-right: 30px;
+}
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
+{
+    background-color: rgba(0, 101, 252, 0.25);
+    padding: 17px;
+    border-radius: 100px;
+    margin-right: 7px;
+    color: #0065fc;
+
+}
+.info
+{
+    display: flex;
+    align-items: center;
+    
+}
+.fa-info
+{
+    text-align:center;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 3px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    border: 1px #d9d9d9 solid;
+    border-radius: 100px;
+    color: #0065fc;
+}
+.blocs
+{
+    display: flex;
+}
+
+.bloc-hotel
+{
+    width: 60%;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+
+.marseille-cases
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+.marseille-case
+
+{
+    background-color: white;
+    padding: 7px;
+    border-radius: 15px;
+}
+.marseille-case-img-host
+{
+    border-radius: 15px 15px 0px 0px;
+}
+.title-h2-hotel
+{
+    padding: 10px;
+    padding-top: 20px;
+}
+
+#blocs
+{
+    display: flex;
+}
+.bloc-most-popular
+{
+    background-color: #F2F2F2;
+    width: 40%;
+    border-radius: 15px;
+}
+.most-popular
+{
+    display: flex;
+    flex-direction: column;
+}
+.case-text
+{
+    width: 50%;
+    background-color:white;
+
+}
+
+
