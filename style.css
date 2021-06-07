@@ -1,29 +1,32 @@
 
 
-.navbar
+#navbar
 {
     display: flex;
     justify-content: space-between;
-    
 }
-.navbar-H
+
+#link-n
 {
     text-decoration: none;
+    color: black;
+    font-size: large
 }
+
 
 img
 {
-width: 200px;
+    width: 200px;
 }
 .logo-map
 {
-display: flex;
-justify-content: center;
-align-items: center;
-width: 55px;
-height: auto;
-background-color: #F2F2F2;
-border-radius: 15px 0 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: auto;
+    background-color: #F2F2F2;
+    border-radius: 15px 0 0 15px;
 }
 .research-box
 {
@@ -47,6 +50,20 @@ border-radius: 15px 0 0 15px;
     color: white;
     border-radius: 0px 10px 10px 0px;
     border:none;
+    height: 55px;
+
+}
+
+.button-research:hover
+{
+    background-color:darkblue;
+    cursor:auto;
+}
+
+#link-r
+{
+    color: white;
+    text-decoration: none;
 }
 
 .filtres
@@ -103,33 +120,54 @@ border-radius: 15px 0 0 15px;
 
 .bloc-hotel
 {
-    width: 60%;
+    width: 57%;
     background-color: #F2F2F2;
     border-radius: 15px;
     padding: 20px;
     padding-top: 0px;
+    
 }
-
+#popular-room1
+{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .marseille-cases
 {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: space-around;
-    
+    justify-content:space-around;
 }
-
 .marseille-case
 
 {
     background-color: white;
     padding: 7px;
+    margin-bottom: 7px;
     border-radius: 15px;
+    box-shadow: 1px 1px 17px -10px rgba(0,0,0,0.75);
+    
 }
+
+
+.marseille-case:hover
+{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: ease 0.4s;
+}
+
+.marseille-case-img
+{
+    
+}
+
 .marseille-case-img-host
 {
     border-radius: 15px 15px 0px 0px;
+
 }
 .title-h2-hotel
 {
@@ -140,12 +178,14 @@ border-radius: 15px 0 0 15px;
 #blocs
 {
     display: flex;
+    justify-content: space-between;
 }
 .bloc-most-popular
 {
     background-color: #F2F2F2;
-    width: 40%;
+    width: 37%;
     border-radius: 15px;
+    padding: 7px;
 }
 .most-popular
 {
@@ -156,7 +196,69 @@ border-radius: 15px 0 0 15px;
 {
     width: 50%;
     background-color:white;
+    
+}
 
+.hotel-name, .hotel-price
+{
+    display: flex;
+}
+
+.marseille-activities
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 21px;
+}
+.activity-all
+{
+    margin: 20px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 1px 1px 17px -10px rgba(0,0,0,0.75);
+}
+
+#t1,#t2,#t3,#t4,#t5,#t6
+{
+    border-radius: 15px 15px 0px 0px;
+    height: 200px;
+    width: 300px;
+}
+.englobe
+{
+    height: ;
+}
+.activity-all:hover
+{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: ease 0.4s;
 }
 
 
+
+
+
+
+
+
+
+
+.footer
+{
+    background-color: #F2F2F2;
+    height: 200px;
+    padding-top: 20px;
+    
+}
+.footer-blocs
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-bloc
+{
+    display: flex;
+    flex-direction: column;
+}
