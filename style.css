@@ -1,18 +1,65 @@
-
-
-#navbar
+body
 {
-    display: flex;
-    justify-content: space-between;
+    font-family: "Raleway";
+    
 }
 
-#link-n
+nav
+{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
+
+}
+.hb
+{
+    grid-column: 3;
+    border-top: #0065fc 3px solid;
+}
+
+#link-n:hover
+{
+    
+}
+#link-hb
+{
+    text-decoration: none;
+    color:#0065fc;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#link-act
 {
     text-decoration: none;
     color: black;
-    font-size: large
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+#link-act:hover
+{
+    border-top: #0065fc 3px solid;
+    color: #0065fc;
+}
+
+#link-src
+{
+    text-decoration: none;
+    color:#0065fc;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#link-src:hover
+{
+    border-top: #0065fc 3px solid;
+}
 
 img
 {
@@ -84,6 +131,20 @@ img
     border-radius: 100px;
     padding-right: 30px;
 }
+
+#filtres-cliq
+{
+    text-decoration: none;
+}
+
+.filtres-clic:hover
+{
+    cursor: pointer;
+    transform:scale(1.2);
+    transition: ease 0.4s; 
+    color: #0065fc;
+}
+
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
 {
     background-color: rgba(0, 101, 252, 0.25);
