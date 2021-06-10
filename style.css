@@ -4,6 +4,9 @@ body
     
 }
 
+/* ------------- EN TETE ------------------    */
+
+
 nav
 {
     display: grid;
@@ -63,8 +66,12 @@ nav
 
 img
 {
-    width: 200px;
+    width: 180px;
 }
+
+/* --------------- BARRE DE RECHERCHE---------------*/
+
+
 .logo-map
 {
     display: flex;
@@ -112,6 +119,9 @@ img
     color: white;
     text-decoration: none;
 }
+
+/*---------------- FILTRES --------------------*/
+
 
 .filtres
 {
@@ -179,6 +189,9 @@ img
     display: flex;
 }
 
+/*------------------HEBERGEMENT MARSEILLE------------*/
+
+
 .bloc-hotel
 {
     width: 57%;
@@ -186,12 +199,14 @@ img
     border-radius: 15px;
     padding: 20px;
     padding-top: 0px;
+    height: 50%;
     
 }
-#popular-room1
+
+a
 {
-    display: flex;
-    flex-wrap: wrap;
+    color: initial;
+    text-decoration: none;
 }
 
 .marseille-cases
@@ -200,16 +215,40 @@ img
     flex-wrap: wrap;
     width: 100%;
     justify-content:space-around;
+    height: 60%;
 }
-.marseille-case
 
+.hotel-name, .hotel-price, .stars
+{
+    width: 180px;
+    font-size: smaller;
+    margin: 3%;
+}
+
+.stars
+{
+    color: #0065fc;
+}
+
+.marseille-case-img-host
+{
+    height: 100px;
+    width: 220px;
+}
+
+.price
+{
+    padding-left: 3px;
+    font-weight: bold;
+}
+
+.marseille-case
 {
     background-color: white;
-    padding: 7px;
-    margin-bottom: 7px;
+    padding: 3px;
+    margin-bottom: 10px;
     border-radius: 15px;
     box-shadow: 1px 1px 17px -10px rgba(0,0,0,0.75);
-    
 }
 
 
@@ -220,10 +259,7 @@ img
     transition: ease 0.4s;
 }
 
-.marseille-case-img
-{
-    
-}
+
 
 .marseille-case-img-host
 {
@@ -241,29 +277,63 @@ img
     display: flex;
     justify-content: space-between;
 }
+
+
+/*---------------POPULAIRE-----------*/
+
+
 .bloc-most-popular
 {
     background-color: #F2F2F2;
     width: 37%;
     border-radius: 15px;
-    padding: 7px;
+    display: flex;
 }
+
+
+
+.title-h2-and-icon
+{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
 .most-popular
 {
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
 }
-.case-text
+
+.most-popular-img
 {
-    width: 50%;
+    height: 130px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+
+
+.case-text-mp
+{
     background-color:white;
+    height: 130px;
+    width: 200px;
+    border-radius: 0 15px 15px 0;
     
 }
 
 .hotel-name, .hotel-price
 {
-    display: flex;
+    display: flex
 }
+
+
+/*------------------- ACTIVITE -------------------*/
+
 
 .marseille-activities
 {
@@ -302,7 +372,7 @@ img
 
 
 
-
+/* ------------------------------FOOTER---------------------*/
 
 
 .footer
