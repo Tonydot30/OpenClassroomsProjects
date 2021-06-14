@@ -1,6 +1,7 @@
 body
 {
     font-family: "Raleway";
+    margin: 0;
     
 }
 
@@ -230,6 +231,11 @@ a
     color: #0065fc;
 }
 
+#grey
+{
+    color: #d9d9d9;
+}
+
 .marseille-case-img-host
 {
     height: 100px;
@@ -288,30 +294,43 @@ a
     width: 37%;
     border-radius: 15px;
     display: flex;
+    justify-content: space-around;
 }
 
 
 
 .title-h2-and-icon
 {
-    width: 85%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;   
+    align-items: center;  
 }
+
+
 
 .most-popular
 {
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    
+  display: flex;
+  border-radius: 15px;
+  box-shadow: 1px 1px 17px -10px rgba(0,0,0,0.75);
+  margin: 20px;
+  background-color: white;
+  height: 130px;
+  padding: 3px;
+}
+
+.most-popular:hover
+{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: ease 0.4s;
 }
 
 .most-popular-img
 {
     height: 130px;
+    width: 150px;
     border-radius: 15px 0px 0px 15px;
 }
 
@@ -319,9 +338,7 @@ a
 
 .case-text-mp
 {
-    background-color:white;
-    height: 130px;
-    width: 200px;
+    width: 220px;
     border-radius: 0 15px 15px 0;
     
 }
@@ -355,10 +372,14 @@ a
     height: 200px;
     width: 300px;
 }
-.englobe
+
+
+.card__title
 {
-    height: ;
+    padding-left: 10px;
 }
+
+
 .activity-all:hover
 {
     cursor: pointer;
