@@ -1,0 +1,22 @@
+@media (max-width: 800px)
+{
+  
+/* ------------- EN TETE ------------------    */
+
+nav
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+
+}
+.hb
+{
+    grid-column: 2;
+    border-top: #0065fc 3px solid;
+}
+
+
+
+
+
+}
