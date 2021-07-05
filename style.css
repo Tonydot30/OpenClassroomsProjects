@@ -1,9 +1,17 @@
 body
 {
     font-family: "Raleway";
-    margin: 0;
-    
+    margin: auto;
+
 }
+
+header,main
+{
+    max-width: 1440px;
+    margin: auto;
+}
+
+
 
 /* ------------- EN TETE ------------------    */
 
@@ -359,8 +367,9 @@ a
     grid-template-rows: 2rem 12vw 0.5vw 0.5vw 12vw;
     grid-gap: 2vw ;
     width: 100%;
+    height: 100%;
     margin: 4vw 0;
-    padding: 0 20px;
+    padding: 0 20px 30px 20px;
     order: 3;
 }
 
@@ -379,12 +388,19 @@ a
     border-radius: 20px 20px ;
     object-fit: cover;
     padding-bottom: 3rem;
+    box-shadow: 1px 1px 17px -10px rgba(0,0,0,0.75);
 }
 
+.card-items-actvt:hover
+{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: ease 0.4s;
+}
 
 .title-actvt
 {
-    margin: -40px 0px -40px 25px;
+    margin: -48px 0px -40px 25px;
 }
 
 
@@ -397,7 +413,7 @@ a
 #actvt-2
 {
     grid-column: 2;
-    grid-row: 2/5;
+    grid-row: 2/4;
 }
 
 #actvt-3
@@ -415,13 +431,13 @@ a
 #actvt-5
 {
     grid-column: 4;
-    grid-row: 2;
+    grid-row: 2/4;
 }
 
 #actvt-6
 {
     grid-column: 4;
-    grid-row:  3/6;
+    grid-row:  5;
 }
 
 
@@ -450,4 +466,60 @@ a
 {
     display: flex;
     flex-direction: column;
+}
+
+.footer-link:hover
+{
+text-decoration: underline;
+}
+
+
+
+
+
+@media screen and (max-width: 1250px)
+{
+
+    #blocs
+    {
+        display: block;
+        width: 100%;
+    }
+
+.bloc-hotel
+{
+    width: 100%;
+    display: block;
+    max-width: 870px;
+    padding: 0 25px 25px 25px;
+    margin: auto;
+}
+
+.bloc-most-popular
+{
+    width: 100%;
+    display: block;
+    max-width: 870px;
+    padding: 0 25px 25px 25px;
+    margin: auto;
+    margin-top: 21px;
+}
+
+nav
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+
+}
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 850px)
+{
+
 }
