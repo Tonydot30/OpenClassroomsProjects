@@ -20,6 +20,7 @@ nav
 {
     display: grid;
     grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
+    padding-left: 10px;
 
 }
 .hb
@@ -28,9 +29,9 @@ nav
     border-top: #0065fc 3px solid;
 }
 
-#link-n:hover
+#link-r
 {
-    
+   font-weight: bold; 
 }
 #link-hb
 {
@@ -80,6 +81,10 @@ img
 
 /* --------------- BARRE DE RECHERCHE---------------*/
 
+.title-h1,.subtitle
+{
+    padding-left: 10px;
+}
 
 .logo-map
 {
@@ -94,7 +99,7 @@ img
 .research-box
 {
     display: flex;
-    padding: 15px;
+    padding: 10px;
 }
 .research-bar
 {
@@ -105,7 +110,7 @@ img
     border-top: solid 1px #F2F2F2;
     border-bottom: solid 1px #F2F2F2;
     font-family: "Raleway" sans-serif;
-;
+    font-weight: bold;
 }
 .button-research
 {
@@ -135,6 +140,7 @@ img
 .filtres
 {
     display: flex;
+    padding-left: 10px;
 }
 .filtres-ul
 {
@@ -143,6 +149,12 @@ img
     list-style-type: none;
     justify-content: space-between;
 }
+
+.title-h2
+{
+    padding-top: 12px;
+}
+
 
 .filtres-clic
 {
@@ -198,6 +210,7 @@ img
     display: flex;
 }
 
+
 /*------------------HEBERGEMENT MARSEILLE------------*/
 
 
@@ -208,6 +221,7 @@ img
     border-radius: 15px;
     padding: 20px;
     padding-top: 0px;
+    padding-bottom: 45px;
     height: 50%;
     
 }
@@ -290,6 +304,8 @@ a
 {
     display: flex;
     justify-content: space-between;
+    width: 95%;
+    margin: auto;
 }
 
 
@@ -300,6 +316,7 @@ a
 {
     background-color: #F2F2F2;
     width: 37%;
+    padding-top: 20px;
     border-radius: 15px;
     display: flex;
     justify-content: space-around;
@@ -366,9 +383,9 @@ a
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 2rem 12vw 0.5vw 0.5vw 12vw;
     grid-gap: 2vw ;
-    width: 100%;
+    width: 95%;
+    margin: auto;
     height: 100%;
-    margin: 4vw 0;
     padding: 0 20px 30px 20px;
     order: 3;
 }
@@ -454,6 +471,7 @@ a
     background-color: #F2F2F2;
     height: 200px;
     padding-top: 20px;
+    margin-top: 50px;
     
 }
 .footer-blocs
@@ -493,6 +511,7 @@ text-decoration: underline;
     max-width: 870px;
     padding: 0 25px 25px 25px;
     margin: auto;
+    order: 2;
 }
 
 .bloc-most-popular
@@ -503,6 +522,7 @@ text-decoration: underline;
     padding: 0 25px 25px 25px;
     margin: auto;
     margin-top: 21px;
+    order: 1;
 }
 
 nav
@@ -512,6 +532,10 @@ nav
 
 }
 
+#activites
+{
+    grid-gap: 4vw;
+}
 
 
 }
@@ -521,5 +545,189 @@ nav
 
 @media screen and (max-width: 850px)
 {
+
+    header, main
+    {
+        max-width: 350px;
+    }
+
+    
+    nav
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .hb
+    {
+        grid-row: 2;
+        grid-column: 1;
+        width: 170px;
+        border-top: 0px;
+        border-bottom: solid 3px #0065fc;
+    }
+
+    .act 
+    {
+        grid-row: 2;
+        width: 170px;
+        border-bottom: solid 3px #d9d9d9;
+    }
+
+    .scr 
+    {
+        grid-column: 2;
+        padding-left: 50px;
+        font-weight: bolder;
+    }
+
+    #link-src:hover
+    {
+        border-top: 0px;
+    }
+
+    #link-act:hover
+    {
+        border-top: 0px;
+        border-bottom: #0065fc solid 3px;
+    }
+
+
+
+
+
+    .title-h1
+    {
+    font-size: 1.3em;
+    width: 80%;
+    }
+
+    ::placeholder
+    {
+        font-size: 1.4em;
+    }
+
+    .filtres
+    {
+        display: inline;
+        height: 500px;
+    }
+    .filtres-ul
+    {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        padding-left: 0px;
+        height: 200px
+    }
+
+    #fam
+    {
+        position: absolute;
+        right: 30px;
+    }
+
+
+    .bloc-hotel
+    {
+        background-color: initial;
+        padding: 0;
+        margin: auto;
+    }
+
+    .title-h2-hotel
+    {
+        padding-left: 0;
+    }
+
+    
+    .marseille-cases
+    {
+       display: inline;
+
+    }
+
+    .marseille-case
+    {
+        margin-bottom: 25px;
+    }
+
+    .marseille-case-img-host
+    {
+        width: 100%;
+        height: 130px;
+        object-fit: cover;
+    }
+
+
+    .afficher-plus
+    {
+        padding: 20px;
+        padding-left: 0;
+        font-weight: bold;
+    }
+
+    .bloc-most-popular
+    {
+        border-radius: 0;
+        padding: 5px;
+        margin: auto;
+        
+    }
+    
+
+    .hotel-name, .hotel-name
+    {
+        width: 130px;
+    }
+
+
+    #activites
+    {
+        display: flex;
+        flex-direction: column;
+        margin:auto;
+    }
+
+    .img-actvt
+    {
+        object-fit: cover;
+    }
+
+    .card-items-actvt
+    {
+        padding-bottom: 55px;
+        width: 100%;
+        height: 133px;
+    }
+
+    .footer
+{
+    background-color: #F2F2F2;
+    height: 100%;
+    padding-top: 20px;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    margin: auto;
+    
+}
+.footer-blocs
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.footer-link
+{
+    padding-bottom: 17px;
+}
+
+
+
+
 
 }
