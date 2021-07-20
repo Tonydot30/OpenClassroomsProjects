@@ -167,6 +167,27 @@ img
     border: solid 2px #d9d9d9;
     border-radius: 100px;
     padding-right: 30px;
+    display: flex;
+}
+
+.fas.fa-money-bill-wave, .fas.fa-child, .fas.fa-heart, .fas.fa-dog
+{
+    width: 21px;
+    height: 21px;
+    margin: auto;
+    margin-left: -7px;
+    margin-top: -2px;
+    margin-bottom: -2px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(222, 235, 255);
+}
+
+#align
+{
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
 }
 
 #filtres-cliq
@@ -641,12 +662,14 @@ nav
     .filtres-ul
     {
         width: auto;
-        display: flex;;
+        display: flex;
         flex-wrap: wrap;
+        justify-content: initial;
         padding-left: 10px;
         padding-right: 10px;
         height: auto;
         align-items: stretch;
+        
     }
 
     .title-h2
@@ -658,6 +681,12 @@ nav
     .filtres-clic
     {
         margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .fa-info
+    {
+        margin-left: 16px;
     }
     
     .filtres-clic:hover
