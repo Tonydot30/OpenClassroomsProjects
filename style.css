@@ -115,7 +115,7 @@ img
     border:none;
     border-top: solid 1px #F2F2F2;
     border-bottom: solid 1px #F2F2F2;
-    font-family: "Raleway" sans-serif;
+    font-family: "Raleway";
     font-weight: bold;
 }
 .button-research
@@ -183,7 +183,7 @@ img
     background-color: rgb(222, 235, 255);
 }
 
-#align
+.align
 {
     display: flex;
     align-items: center;
@@ -280,7 +280,7 @@ a
     color: #0065fc;
 }
 
-#grey
+#grey1, #grey2, #grey3, #grey4, #grey5, #grey6, #grey7, #grey8
 {
     color: #d9d9d9;
 }
